@@ -79,7 +79,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="SudokuBoard.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SudokuGenerator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SudokuBoard.h" />
+    <ClInclude Include="SudokuGenerator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
